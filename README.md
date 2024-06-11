@@ -27,9 +27,9 @@ AndrewBCN GPSDO Programming
 - Make sure generic serial is enabled for both USB and USART
 
 - for dst...
-- if (gps.time.hour() > 3)   // change time zone
+-     if (gps.time.hour() > 3)   // change time zone
       hours = gps.time.hour() - 4;
-    else
+      else    
       hours = gps.time.hour() + 20; 
 
 GPS Programming

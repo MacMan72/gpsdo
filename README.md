@@ -26,6 +26,12 @@ AndrewBCN GPSDO Programming
 - Should reboot and start running code after upload complete
 - Make sure generic serial is enabled for both USB and USART
 
+- for dst...
+- if (gps.time.hour() > 3)   // change time zone
+      hours = gps.time.hour() - 4;
+    else
+      hours = gps.time.hour() + 20; 
+
 GPS Programming
 - Download and install U Center
 - If needed install driver for CP2102 TTL Module

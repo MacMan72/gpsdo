@@ -14,6 +14,7 @@ LARS GPSDO Programming
 - Enter s1 to save gain value
 - Enter r to run closed loop
 - See printed notes for more info
+- Lars GPSDO Info: https://github.com/paulvee/Lars-GPSDO-V1
 
 AndrewBCN GPSDO Programming
 - STM32F411ceu6 BlackPill

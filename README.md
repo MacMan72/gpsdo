@@ -18,6 +18,7 @@ LARS GPSDO Programming
 
 AndrewBCN GPSDO Programming
 - STM32F411ceu6 BlackPill
+- https://github.com/AndrewBCN/STM32-GPSDO
 - Plug in and reboot while holding boot0 (hold both buttons down, release RST button, then almost immediately boot0) 
 - Should recognize in Device Manager as "STM Bootloader" device, no COM port assigned
 - Choose "Generic STM32F4 series" as board in Arduino IDE

@@ -28,7 +28,13 @@ AndrewBCN GPSDO Programming
 - Should reboot and start running code after upload complete
 - Make sure generic serial is enabled for both USB and USART
 
-- for dst...
+- for EST DST OFF (Winter)...
+-     if (gps.time.hour() > 4)   // change time zone
+      hours = gps.time.hour() - 5;
+      else    
+      hours = gps.time.hour() + 19;
+  
+- for EST DST ON (Summer)...
 -     if (gps.time.hour() > 3)   // change time zone
       hours = gps.time.hour() - 4;
       else    
